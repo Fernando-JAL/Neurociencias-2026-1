@@ -1,0 +1,769 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "b730291f-cab9-4b9c-adb4-f419c20d294f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### TIPOS DE DATOS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "b48fbac7-57d8-40b8-87d3-547571778b65",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=1\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "1397456a-f6c4-443b-aa5a-e63d0df6842b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "658547b7-e877-4ddc-ae78-1f0cc4e922e8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=1234567890"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "f3dc6e79-d63e-4883-b98c-ef4b8fc26d52",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(int, int)"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a), type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "49badcc2-dc4b-4d0f-a737-cf6e53a53628",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "type() takes 1 or 3 arguments",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[70], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m \u001b[38;5;28;43mtype\u001b[39;49m\u001b[43m(\u001b[49m\u001b[38;5;241;43m1\u001b[39;49m\u001b[43m,\u001b[49m\u001b[38;5;241;43m2\u001b[39;49m\u001b[43m)\u001b[49m\n",
+      "\u001b[1;31mTypeError\u001b[0m: type() takes 1 or 3 arguments"
+     ]
+    }
+   ],
+   "source": [
+    "type(1,2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3542856f-fc24-40c3-91f0-c0c1de00b6cf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "db2b2e86-d73c-4bc4-8151-3bff66f822b2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### DEFINICIÓN DE COMPLEJOS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "21755fc2-8b7f-4393-8b4e-bae470d173b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "complex(1, 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "321e800b-2981-43e0-a62c-2dcdcf0b44f0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "complex(3, 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0bf26739-c5ea-425d-a6a5-7b34e57507d8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "complex(0, 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4ab73712-3d13-4dc7-81f2-b169b02fe404",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "complex(0, 1+3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f344b89c-3372-4406-9756-e07eeceadd4d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "13323fb3-a830-4ad9-bf6f-945a7a2a5f44",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# quiero sumar 2j al valor de c\n",
+    "c + complex(0, 2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a90e2a36-e112-49e4-8bdc-bc69151b1cc7",
+   "metadata": {},
+   "source": [
+    "type (c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "974a2b70-72f1-44f5-9074-0fb19449be5e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### OPERACIONES CON TIPOS DE DATOS NUMÉRICOS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "12c2c0e9-b327-4ef1-9bc2-ab62f5f74845",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "56 + 44"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e1a7da25-1f4a-478c-8db8-a5b6626ab3cf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "800 - 80"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6479240e-1362-4243-8bed-202c7ab172bb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "87 * 9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "70dbd4f5-a915-4792-9a0b-6ec0023a0f00",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "85.2/46"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "38da8396-1265-4e30-b683-6adb1137de8a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para expresar la potencia \n",
+    "5**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dde04660-68f8-42b8-909c-4680990c5ba5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para sacar la raíz cuadrada potenciamos a un medio\n",
+    "9**0.5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3081660a-7dd7-4d3f-b498-6d2b17e27662",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para conocer el residuo de la divición de 16/4\n",
+    "16 % 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3b877e7c-633c-4ea8-bd10-4d59f040e5c8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para calcular el cociente\n",
+    "16 // 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "96a6b23d-d14b-40ca-ae4c-b06e1d1e54ad",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 8\n",
+    "b = 3\n",
+    "c = 42"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aa65470c-bc82-4ea5-8adf-c4305384fe2a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5d156222-44ca-4480-b840-b2a3189f39a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b, c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4f5d4037-7bee-4840-b058-efe17d769b81",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c/a+b*a-a**3/(c%b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "444a828f-7264-4436-a545-545e69510fd3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### STRINGS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "92905585-293c-4728-bea5-067dffc5ec96",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\"esto es una cadena de texto"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d7800c37-dec2-473b-a5d5-9c8eaffe0929",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "'esto es una cadena de texto'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d7367ff8-5440-4f47-b168-80635bf79a7c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b = 'cadena de texto 1', 'cadena de texto 2'\n",
+    "a, b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "220cd148-50b3-40ca-9355-c863b31e6c26",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print(a, b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c4d7501c-85a8-4b0c-a887-a44d49b0d4cc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print(a, b, 'equis cosa', 2, 'lo que sea')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dabacb0b-d12f-4289-a22f-6f2ca039e3dc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# la '\\t' significa tabulador\n",
+    "print(a, '\\t', b, 'equis cosa', 2, 'lo que sea')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44e25095-b210-400e-b2ce-120a9ce5e15f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# la '\\n' significa salto de línea\n",
+    "print(a, '\\n', b, 'equis cosa', 2, 'lo que sea')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7cff310e-65eb-413e-9c31-cb9c3451c052",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print('C:\\Users\\maria\\OneDrive\\Escritorio\\GitHubneuro\\Neurociencias-2026-1')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8f1e5a1c-5258-491e-adaa-6a0f06c3be0c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print(r'C:\\Users\\maria\\OneDrive\\Escritorio\\GitHub neuro\\Neurociencias-2026-1')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a0ba117b-1fe8-435b-bcea-bd9649c9f45f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para textos en varias líneas se debe poner triple comilla antes y después (\"\"\"....\"\"\")\n",
+    "print(\"\"\"primera línea de texto\n",
+    "segunda línea de texto\n",
+    "tercera línea de texto\"\"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f276fc02-7048-4e03-a2aa-f1cf6c0a206a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ae554350-66cb-42f3-9995-1f743c55f367",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "618f8c46-27a5-4205-9ad2-93e4f705bb8f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a-b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4f4a0708-1bbe-4884-a621-20cfcfa09fcc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b = 'ah', 'be'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "858875dd-eb12-483e-9778-9f413430bc48",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c5014a4-9db8-4eeb-94e4-b145d91b3b20",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "3+a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f6dbb27c-b600-4937-9821-c4bf63639792",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "3 * a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ac18dc7f-b789-4553-9ac4-675fb0efd582",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# a pesar de ser cadenas de este tipo sigue respetando el patrón de jerarquías\n",
+    "3 * a + 2*b + a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ebd3f66a-1071-40c9-816f-5105de93b5b8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# para la suma de cadenas sí importa el orden de los factores\n",
+    "a + b, b + a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "930998f1-7bb0-464b-8dc0-33a19c1aa48d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "### SALICING = REBANANDO\n",
+    "a = 'hola jolines preciosos chiquitos'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "e0fe4c6a-88b8-4e70-abed-db6d182efbef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = 'cadena'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "146821d7-813c-434e-81cb-6b0aa8aca4cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'n'"
+      ]
+     },
+     "execution_count": 86,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# para el rebanado se utilizan los corchetes.\n",
+    "# las letras de las palabras se enumeran del 0 en adelante.\n",
+    "b[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "9749d737-f7e5-4501-a50f-fe55a8db2d80",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hola jolines preciosos chiquitos'"
+      ]
+     },
+     "execution_count": 87,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "8840e052-c85a-47ec-a1d1-87889b9c9150",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'preciosos'"
+      ]
+     },
+     "execution_count": 88,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# para rebanar más de una letra se usan elongaciones\n",
+    "# los espacios también se cuentan\n",
+    "a[13:22]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "8ba513a5-14ae-4a0e-8cb0-1f24c46db73b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'chiquitos'"
+      ]
+     },
+     "execution_count": 92,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# si lo hacemos de izquierda a derecha no es necesario especificar el final\n",
+    "a[-9:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "06290585-8e30-4ac7-8ae1-151bc9989d80",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hola jolines preciosos chiquitos'"
+      ]
+     },
+     "execution_count": 93,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "9986976a-26ad-4e6e-a0bf-f01f332d2af0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sotiuqihc sosoicerp seniloj aloh'"
+      ]
+     },
+     "execution_count": 94,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "2208da4d-de29-4fdc-9f8e-20e2e24290b9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'stuicssiepsnljao'"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[::-2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11e4adb8-bf4c-4043-9d95-9eb17b4e156a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "88c0db80-dc24-438b-8ab8-0a1390cd6dbf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5fe249ef-b397-4e4e-948a-cec657ff57d3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5e9b4d2d-4e37-4ef9-8793-9afb33051f0a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
