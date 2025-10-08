@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="">
+    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="notas">
       <change beforePath="$PROJECT_DIR$/.idea/Neurociencias-2026-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Neurociencias-2026-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S02_clases/clase_09_30/Leer excel.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_09_30/Leer excel.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +50,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.defisheye.executor": "Debug",
-    "Python.defisheye_test.executor": "Run",
-    "Python.grafo3D.executor": "Debug",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "development",
-    "last_opened_file_path": "C:/Users/OMEN CI7/Documents/repository/Neurociencias-2026-1",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.defisheye.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.defisheye_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grafo3D.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OMEN CI7/Documents/repository/Neurociencias-2026-1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.grafo3D">
     <configuration name="defisheye_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neurociencias-2026-1" />
@@ -94,9 +94,8 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="C:\ProgramData\Anaconda3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S02_clases/clase_10_07" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py" />
@@ -159,6 +158,15 @@
       <option name="presentableId" value="Default" />
       <updated>1757958338415</updated>
     </task>
+    <task id="LOCAL-00001" summary="notas">
+      <option name="closed" value="true" />
+      <created>1759884257697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759884257697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +180,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="notas" />
+    <option name="LAST_COMMIT_MESSAGE" value="notas" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -179,11 +191,6 @@
           <url>file://$PROJECT_DIR$/S02_clases/tests/defisheye_test.py</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import networkx as nx
-from matplotlib.pyplot import ylabel
-from sympy.printing.pretty.pretty_symbology import line_width
 
 # Defino los archivos a usar
 excel_conectividad = r"C:\Users\OMEN CI7\Documents\repository\Neurociencias-2026-1\S03_datasets\EEG.xlsx"
@@ -36,6 +34,7 @@ G = nx.from_pandas_adjacency(motor_df)
 # plt.figure(figsize=(4, 4))
 # nx.draw_networkx(G, pos=pos2D)
 # plt.show()
+
 
 # Creamos el plot3D del grafo
 pos3D = {canal: (coordenadas_df.loc[canal, 'x'],
