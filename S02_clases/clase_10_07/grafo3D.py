@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 # Defino los archivos a usar
-excel_conectividad = r"C:\Users\OMEN CI7\Documents\repository\Neurociencias-2026-1\S03_datasets\EEG.xlsx"
-excel_coordenadas = r"C:\Users\OMEN CI7\Documents\repository\Neurociencias-2026-1\S03_datasets\EEG_3D_coordinates.xlsx"
+excel_conectividad = r"C:\Users\OMEN CI7\Documents\repository\Neurociencias-2026-1\S03_datasets\EEG_dummy\EEG.xlsx"
+excel_coordenadas = r"C:\Users\OMEN CI7\Documents\repository\Neurociencias-2026-1\S03_datasets\EEG_dummy\EEG_3D_coordinates.xlsx"
 
 # Leo los archivos de excel, como diccionarios
 conectividad_dict = pd.read_excel(excel_conectividad, sheet_name=None)
