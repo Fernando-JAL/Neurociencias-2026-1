@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_10_07/grafo3D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S02_clases/clase_10_09/.ipynb_checkpoints/macaque47-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_10_09/.ipynb_checkpoints/macaque47-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S02_clases/clase_10_09/macaque47.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_10_09/macaque47.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +52,14 @@
     "Python.defisheye.executor": "Debug",
     "Python.defisheye_test.executor": "Run",
     "Python.grafo3D.executor": "Run",
+    "Python.remap_color.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "development",
     "last_opened_file_path": "C:/Users/OMEN CI7/Documents/repository/Neurociencias-2026-1",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.grafo3D">
+  <component name="RunManager" selected="Python.remap_color">
     <configuration name="defisheye_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neurociencias-2026-1" />
       <option name="ENV_FILES" value="" />
@@ -106,8 +104,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="remap_color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Neurociencias-2026-1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S02_clases/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S02_clases/tests/remap_color.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remap_color" />
         <item itemvalue="Python.grafo3D" />
         <item itemvalue="Python.defisheye_test" />
       </list>
