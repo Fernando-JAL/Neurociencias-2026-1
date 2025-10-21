@@ -1,0 +1,323 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d20eb0fb-08f3-412d-80c6-09894d40f1bf",
+   "metadata": {},
+   "source": [
+    "1. Validar contraseña segura\n",
+    "Escribe una función es_contraseña_segura(passw) que verifique si una contraseña:\n",
+    "\n",
+    "Tiene al menos 8 caracteres\n",
+    "\n",
+    "Incluye mayúsculas, minúsculas, números y un carácter especial (@, #, $, %, &, etc.)\n",
+    "Usa funciones built-in como any(), str.isdigit(), str.isupper(), etc."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "1e5a6460-7eda-4a11-8673-9acffb7d43b1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def es_contraseña_segura(passw):\n",
+    "    return (\n",
+    "        len(passw) >= 8 and\n",
+    "        any(c.isupper() for c in passw) and\n",
+    "        any(c.islower() for c in passw) and\n",
+    "        any(c.isdigit() for c in passw) and\n",
+    "        any(c in \"!@#$%&*^-_=+[]{};:'°,.<>()?/~\" for c in passw)\n",
+    "    )\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "70214ccd-73dc-4ce5-93e7-d16ef9efdcae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(es_contraseña_segura(\"Hola123!\"))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b49f0cec-5dbe-48e6-bb10-fdbda187eb4a",
+   "metadata": {},
+   "source": [
+    "2. Palabra más larga en una frase\n",
+    "\n",
+    "Define palabra_mas_larga(frase) que encuentre la palabra con más caracteres dentro de un texto."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "ce63c2c7-aab0-4f40-bb70-e9c8d8109d38",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def palabra_mas_larga(frase):\n",
+    "    palabras = frase.split()\n",
+    "    return max(palabras, key= len)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "7178ffe0-4832-44da-bbfb-92c9cb933800",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "intensamente\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(palabra_mas_larga(\"El sol brilla intensamente\"))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ac94284c-c72e-414c-9332-a5a1e3299ac8",
+   "metadata": {},
+   "source": [
+    "3. Simulador de calculadora básica\n",
+    "Crea una función calculadora(a, b, operador) donde operador puede ser \"+\", \"-\", \"*\", \"/\".\n",
+    "Usa if/elif para decidir la operación"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "88f9da1e-4878-4ec1-813c-c45d0808d02b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def calculadora (a, b, operador):\n",
+    "    if operador =='+':\n",
+    "        return a+b\n",
+    "    elif operador =='-':\n",
+    "        return a -b\n",
+    "    elif operador == '*':\n",
+    "        return a*b\n",
+    "    elif operador =='/':\n",
+    "        if b != 0:\n",
+    "            return a / b\n",
+    "        else:\n",
+    "            return \"Error: división entre cero\"\n",
+    "    else: \n",
+    "        return \"operador no valido\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "13156aa4-2075-4b64-ae41-ac1fb5b52b21",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(calculadora(10, 5, '+'))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "82a9500c-aeda-4cf7-9ad7-5967bfbfa609",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Error: división entre cero\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(calculadora(10, 0, '/'))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3cca8c2f-384c-4e43-a3ee-f93a9ff17489",
+   "metadata": {},
+   "source": [
+    "4. Suma de números impares\n",
+    "\n",
+    "Dada una lista de enteros, escribe una función que devuelva la suma de todos los números impares.\n",
+    "Ejemplo → [1, 2, 3, 4, 5] → 9."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "e9aa9e35-ea0b-49fc-8a54-cef31ac2453b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def suma_impares(lista):\n",
+    "    return sum(num for num in lista if num % 2 !=0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "076d067e-d2df-46d8-9aa7-b2cc3a739e35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(suma_impares([1, 2, 3, 4, 5]))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cb1b695d-545d-4800-b498-e632a8d1110e",
+   "metadata": {},
+   "source": [
+    "5. Palabras que comienzan con vocal\n",
+    "\n",
+    "Dada una lista de palabras, devuelve una nueva lista solo con las que empiezan con vocal.\n",
+    "Ejemplo → [\"oso\", \"perro\", \"agua\", \"luz\"] → [\"oso\", \"agua\"]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "ed973125-d10e-47fd-973e-cb4f9899e80e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def palabras_con_vocal(lista):\n",
+    "    vocales = 'aeiouáéíóúAEIOUÁÉÍÓÚ'\n",
+    "    return [palabra for palabra in lista if palabra[0] in vocales]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "d5954b97-644d-4aad-9faa-326a716a5353",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['oso', 'agua']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(palabras_con_vocal([\"oso\", \"perro\", \"agua\", \"luz\"]))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "50ab5e3a-e94f-45c7-ae64-791ee320058f",
+   "metadata": {},
+   "source": [
+    "6. Unir listas alternando elementos. Investigar la built-in function zip\n",
+    "\n",
+    "Dados dos listas del mismo tamaño, genera una tercera lista intercalando sus elementos.\n",
+    "Ejemplo → [1,2,3], [‘a’,‘b’,‘c’] → [1,‘a’,2,‘b’,3,‘c’]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "26355a29-e0de-41b0-b8ba-34ba1e49ad36",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def unir_listas(lista1, lista2):\n",
+    "    return [elem for par in zip(lista1, lista2) for elem in par]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "5a4a8a4d-fa28-4bc1-a045-806be07f03da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 'a', 2, 'b', 3, 'c']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(unir_listas([1, 2, 3], ['a', 'b', 'c']))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54ca3a6a-3d60-42b5-81eb-7863d99ff644",
+   "metadata": {},
+   "source": [
+    "7. Rotar una lista n posiciones\n",
+    "\n",
+    "Dada una lista y un número entero n, rota la lista hacia la derecha n posiciones.\n",
+    "Ejemplo → [1,2,3,4,5], n=2 → [4,5,1,2,3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "548305a6-f256-4428-bf3c-07e77b380a83",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
