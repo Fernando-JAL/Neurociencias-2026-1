@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="archivo prueba">
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_09/.ipynb_checkpoints/macaque47-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_09/macaque47.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_20/.ipynb_checkpoints/practica_python-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_20/practica_python.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_22/.ipynb_checkpoints/leyendo_eeg_Macarena-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_22/connectivity_coherence.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_22/connectivity_pearson.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_22/leyendo_eeg_Macarena.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/notas/.ipynb_checkpoints/matrices_conectividad-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/notas/.ipynb_checkpoints/metrics_per_graph-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/notas/matrices_conectividad.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S02_clases/notas/metrics_per_graph.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S03_datasets/EEG_practica/chb01-summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S03_datasets/EEG_practica/chb01_01.edf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S03_datasets/EEG_practica/coordenadas_base_10_20.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/S03_datasets/EEG_practica/coordenadas_bipolares_eeg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SA2_adicionales/Fundamentals of Brain Network Analysis  -  Fornito, Alex; Zalesky, Andrew; Bullmore, Edward,Andrew  .pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SA2_adicionales/Hand-on Data Preprocessing in Python.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S04_parciales/Parcial_2_profe.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S04_parciales/Parcial_2_profe.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +59,16 @@
     &quot;Python.defisheye_test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging Macarena-&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Maca/Desktop/Todo todo/UNAM/5º Semestre/Neurociencias-2026-1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Macarena-&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Maca/Desktop/Todo todo/UNAM/5º Semestre/Neurociencias-2026-1/S04_parciales&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/S04_parciales" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="defisheye_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neurociencias-2026-1" />
@@ -135,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761260804746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="archivo prueba">
+      <option name="closed" value="true" />
+      <created>1761262806062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761262806062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
