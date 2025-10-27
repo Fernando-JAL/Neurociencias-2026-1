@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="examen 2" />
+    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="examen 2">
+      <change afterPath="$PROJECT_DIR$/S02_clases/clase_10_27/clases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +67,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/S04_parciales" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/S02_clases" />
     </key>
   </component>
   <component name="RunManager">
@@ -184,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761542903870</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="examen 2">
+      <option name="closed" value="true" />
+      <created>1761594182612</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761594182613</updated>
+    </task>
+    <task id="LOCAL-00011" summary="examen 2">
+      <option name="closed" value="true" />
+      <created>1761594199790</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761594199790</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
