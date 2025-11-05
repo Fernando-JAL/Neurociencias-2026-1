@@ -1,3 +1,73 @@
+<<<<<<< HEAD
 .DS_Store
 S02_clases/Clase 5/Tipo de datos.ipynb
 .DS_Store
+=======
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# ========================
+# Entornos virtuales
+# ========================
+venv/
+env/
+dl_env/
+*.env
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# Archivos temporales del sistema
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# TensorFlow / Keras
+# ======================== 
+checkpoint/
+*.ckpt
+*.h5
+*.pb
+*.tflite
+events.out.tfevents.*
+
+# ========================
+# Datasets y archivos grandes
+# ========================
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.npy
+*.npz
+*.tsv
+*.json
+
+# ========================
+# GitHub Codespaces / VSCode / PyCharm
+# ========================
+.vscode/
+*.code-workspace
+.idea/
+
+# ========================
+# Otros
+# ========================
+logs/
+output/
+>>>>>>> main
