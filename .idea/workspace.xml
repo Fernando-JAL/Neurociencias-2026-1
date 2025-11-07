@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="4 nov" />
+    <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="prueba">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S02_clases/clase_11_04/.ipynb_checkpoints/ejercicios con grafos-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_11_04/.ipynb_checkpoints/ejercicios con grafos-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S02_clases/clase_11_04/ejercicios con grafos.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S02_clases/clase_11_04/ejercicios con grafos.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,15 +312,35 @@
       <option name="project" value="LOCAL" />
       <updated>1762315134196</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="prueba">
+      <option name="closed" value="true" />
+      <created>1762394612276</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1762394612276</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="archivo prueba" />
     <MESSAGE value="examen 2" />
     <MESSAGE value="tarea" />
     <MESSAGE value="4 nov" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 nov" />
+    <MESSAGE value="prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
