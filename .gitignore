@@ -71,3 +71,5 @@ events.out.tfevents.*
 logs/
 output/
 >>>>>>> main
+/S04_parciales
+S04_parciales/Parcial_2_profe.ipynb
