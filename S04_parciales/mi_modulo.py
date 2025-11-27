@@ -105,4 +105,3 @@ def grafo_comunidades(comunidades, Hub, coords, pos):
             y_ = [coords.loc[n1, "y"], coords.loc[n2, "y"]]
             z_ = [coords.loc[n1, "z"], coords.loc[n2, "z"]]
             pos.plot(x_, y_, z_, linewidth = 3, alpha = 0.4, color = colores[n_comunidad])
-    pos.set_title("comunidades del ensayo 3")
