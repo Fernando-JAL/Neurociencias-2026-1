@@ -67,22 +67,22 @@ def metricas_grafo(G):
     return  (clust_coeff, path_length, small_world_sigma, communities, modularity, betwenness, global_eff, local_eff, degree_dict)
 
 # Grafo 2D
-def grafo_2d(ensayo_df, pos):
-    ensayo_grafo_ = nx.from_pandas_adjacency(ensayo_df)
-    nx.draw_circular(ensayo_grafo, with_labels = True, font_size = 7.5, ax = pos)
-    return ensayo_grafo_
+def grafo2D(df, pos):
+    ensayo_grafo = nx.from_pandas_adjacency(df)
+    nx.draw_circular(ensayo_grafo, with_labels=True, font_size=7, ax=pos)
+
+    return ensayo_grafo
 
 # Grafo 3D
-def grafo_3d(Hub, coords, pos):
-    x, y, z =coords["x"].values, coords["y"].values, coords["z"].values
+def grafo3D(coords, Hub, pos):
+    x, y, z = coords['x'].values, coords['y'].values, coords['z'].values
     
-    nodes_size = [30 if idx != Hub[0] else 200 for idx in coords.index] # cambiar el tamaño del nodo si es el hub
-    pos.scatter(x, y, z, alpha = 0.5)
-     
+    nodes_size = [30 if idx != Hub[0] else 200 for idx in coords.index]
+    pos.scatter(x, y, z, alpha=0.5, s=nodes_size)
     for idx, (x_, y_, z_) in enumerate(zip(x, y, z)):
-        pos.text(x_, y_, z_, coords.index[idx], fontsize = 10)
-        if coords.index[idx] == hub[0]:
-            pos.text(x_, y_, z_, "HUB", color = "red", fontsize = 13) # cambiar el color del texto del nodo si es el 
+        pos.text(x_, y_, z_, coords.index[idx], fontsize=5)
+        if coords.index[idx] == Hub[0]:
+            pos.text(x_, y_, z_, 'HUB', color='red', fontweight='bold', fontsize=10)
 
 # Grafo comunidades
 def grafo_comunidades(comunidades, Hub, coords, pos):
