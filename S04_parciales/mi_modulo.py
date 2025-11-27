@@ -8,27 +8,27 @@ import matplotlib.pyplot as plt
 def lista_dfs(ensayo_dict):
     ensayos_dfs_ = []
     for sujeto in ensayo_dict.keys():
-        ensayos_dfs.append(ensayo_dict[sujeto])
+        ensayos_dfs_.append(ensayo_dict[sujeto])
     return ensayos_dfs_
 
-def capsula(lista_dfs, th, porcentaje_):
-    # conjuntamos las matrices
-    stack = np.stack([df.values for df in lista_dfs])
-
-    # aplicamos el filtro a cada matriz
+# Filtrado de matrices
+def capsula(lista_dfs_, th, porcentaje_):
+    # Conjuntamos las matrices
+    stack = np.stack([df.values for df in lista_dfs_])
+    # Aplicamos filtro a cada matriz
     above = stack > th
-
-    N = len(lista_dfs)
-    count_above = above.sum(axis = 0)  # contar cuántos valores superan el umbral en celda
-
-    min_requerido = int(np.ceil(porcentaje_*N)) # np.ceil redondea para arriba
-    # con esto bastará con quedarnos con las celdas de "above" que cumplan con min_requerido, para así tener el número de sujetos que superan el umbral
     
-    # Vamos a obtener a la matriz binarizada de todos
+    N = len(lista_dfs_) # = 109
+    count_above = above.sum(axis=0) # Contando cuantos valores superan el umbral en celda
+    
+    min_requerido = int(np.ceil(porcentaje_*N)) # 0.6*109 = 65.4
+    # con esto bastara con quedarnos con las celdas de 'above' que cumplan con min_requerido
+    # para así tener el número de sujetos que superan el umbral
     result_bool = count_above >= min_requerido
-
-    result_df = pd.DataFrame(result_bool, index=lista_dfs[0].index, columns=lista_dfs[0].columns)
-
+    
+    result_df = pd.DataFrame(result_bool, 
+                             index=lista_dfs_[0].index, 
+                             columns=lista_dfs_[0].columns).astype(int)
     return result_df
 
 # Métricas grafo
