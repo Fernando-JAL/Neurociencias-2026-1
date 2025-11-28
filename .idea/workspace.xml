@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055b3323-e1e7-44f5-afeb-8ee4752bf3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/S04_parciales/Parcial3/Parcial 3.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Neurociencias-2026-1\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,12 +59,13 @@
     "Python.defisheye.executor": "Debug",
     "Python.defisheye_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "Javier",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/OMEN CI7/Documents/repository/Neurociencias-2026-1",
+    "last_opened_file_path": "C:/Users/admin/OneDrive/Documentos/GitHub/Neurociencias-2026-1/Neurociencias-2026-1/S04_parciales",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -72,6 +75,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\OneDrive\Documentos\GitHub\Neurociencias-2026-1\Neurociencias-2026-1\S04_parciales" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="defisheye_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Neurociencias-2026-1" />
@@ -119,6 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757958338415</updated>
       <workItem from="1762818152584" duration="525000" />
+      <workItem from="1764115044600" duration="32725000" />
     </task>
     <servers />
   </component>
