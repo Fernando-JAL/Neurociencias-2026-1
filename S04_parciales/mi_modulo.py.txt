@@ -1,0 +1,32 @@
+import mne
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import networkx as nx
+
+def lista_dfs(ensayo_dict):
+    ensayos_dfs = []
+    for sujeto in ensayo3_dict.keys():
+        ensayos_dfs.append(ensayo3_dict[sujeto])
+    return ensayos_dfs
+
+## filtrado de matrices en este paso se establece un umbral y un porcentaje de la poblacion que queremos que supere este umbral
+
+def capsula(lista_dfs, th, porcentaje_):
+    stack = np.stack([df.values for df in lista_dfs])
+    above = stack > th
+    # se aplico filtro a cada matriz
+    
+    N = len(lista_dfs) #=109
+    count_above = above.sum(axis=0)
+    # contabiliza las matrices/valores que cumplen esta funcion 
+    
+    min_requerido = int(np.ceil(porcentaje_*N)) # ceil redondea, y quiere    decir que de 65.4 sube a 66 y se refiere a 
+    #que con el 66% de los sujetos que cumplan esta condicion/umbral nos quedamos, las celdas son above y el porcentaje lo obtenemos de   min_requerido
+    
+    result_bool = count_above >= min_requerido
+    result_df = pd.DataFrame(result_bool,
+                            index=lista_dfs[0].index,
+                            columns=lista_dfs[0].columns).astype(int)
+    return result_df
